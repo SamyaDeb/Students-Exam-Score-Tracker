@@ -1,4 +1,9 @@
 Students-Exam-Score-Tracker
+
+class StudentScoresTracker:
+    def __init__(self):
+        self.students = {}
+
  Add a new student
     def add_student(self, name, scores):
         if name in self.students:
